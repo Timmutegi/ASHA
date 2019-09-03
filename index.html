@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Asha</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        
+        <!--BOOTSTRAP CSS-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--END OF BOOTSTRAP CSS-->
+        <!--BOOTSTRAP JS-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!--END OF BOOTSTRAP JS-->
+        <!--FONT-->
+        <link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
+        <!--END OF FONT-->
+        
+        <!--FONT AWESOME-->
+        <script src="https://kit.fontawesome.com/88210d7ac1.js"></script>
+        
+        <link rel="stylesheet" href="main.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src='main.js'></script>
+    </head>
+    
+    <body>
+        <!--NAVIGATION BAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand px-5" href="#">A&nbsp;&nbsp;S&nbsp;&nbsp;H&nbsp;&nbsp;A</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 px-5">
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#">Shop</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item px-3">
+                <a class="nav-link" href="#contact">Contact Us </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!--END OF NAVIGATION BAR-->
+        
+        <div id="product">
+            <img src="./images/pianoguy.jpg" alt="">
+        </div>
+        <br>
+        <center><i class="fas fa-angle-double-down fa-2x"></i></center>
+        <div id="about" class="container">
+           <hr><h3>About Us</h3><hr>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rutrum vehicula sapien, in rutrum ante lacinia quis. Curabitur mattis consequat vulputate. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras convallis blandit ligula quis blandit. Aenean in sapien euismod, consequat sapien eget, vulputate erat.</p>   
+        </div>
+        <br> 
+        <center><i class="fas fa-angle-double-down fa-2x"></i></center>    
+        <div id="contact">
+            <br>
+           <hr><h3>Get in Touch with Us</h3><hr><br>
+            <form>
+              <input type="text" name="fullname" placeholder="Fullname">
+         
+              <input type="text" name="email" placeholder="Email"><br>
+              <br>                  
+              <textarea id="textarea" placeholder="Message"></textarea><br><br>
+              
+              <button type="button" class="btn btn-dark">Send Message</button>
+              <br>                  
+            </form>
+            <br>
+        </div>
+        <div>
+           <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+           
+            <footer>
+               <div id="footer" class="container">
+                 <div class="row">
+                  <div class="column">
+                    <h3>Subscribe</h3>
+                     <form>
+                      <p>Subscribe to Our Mailing List to <br>Receive Regular Updates</p>
+                       <input type="text" id="subscribe" name="subscribe" placeholder="Email Address"><br><br>
+                       <button type="button" class="btn btn-light">Subscribe</button>
+                   </form>                         
+                  </div>
+                  <div class="column">
+                    <h3>Menu</h3>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Shop</a></li>
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Contact US</a></li>
+                      </ul> 
+                  </div>
+                  <div class="column">
+                      <h3>Social Media</h3>
+                         <ul>
+                            <p><i class="fab fa-facebook-f fa-2x"></i></p>
+                            <p><i class="fab fa-instagram fa-2x"></i></p>
+                            <p><i class="fab fa-twitter fa-2x"></i></p>   
+                         </ul>                                                
+                      </div>
+                  </div>                  
+                  <div class="rights">
+                      <p>A&nbsp;S&nbsp;H&nbsp;A &nbsp;| &nbsp; ALL RIGHTS RESERVED</p>
+                  </div>
+                 </div>
+            </footer>           
+        </div>
+    </body>
+</html
